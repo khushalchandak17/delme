@@ -3,5 +3,4 @@ data:
   key1: config1
 kind: ConfigMap
 metadata:
-  name: my-config-findme
-  namespace: test1234
+  name: my-config-findme-new
