@@ -4,3 +4,4 @@ data:
 kind: ConfigMap
 metadata:
   name: my-config-findme
+  namespace: test123
