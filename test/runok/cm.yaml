@@ -3,4 +3,4 @@ data:
   key1: config1
 kind: ConfigMap
 metadata:
-  name: my-config1
+  name: my-config1-palak
