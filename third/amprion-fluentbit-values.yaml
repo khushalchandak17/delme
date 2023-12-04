@@ -547,7 +547,7 @@ config: #To-Check-AMPRION
         Host           10.99.99.2 
         Port           8088
         Retry_Limit    3
-        Splunk_Token   ${SPLUNK_TOKEN}
+        Splunk_Token   ${`${SPLUNK_TOKEN}`}
         TLS            On
         TLS.Verify     Off
         net.keepalive true 
