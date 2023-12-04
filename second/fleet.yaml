@@ -10,7 +10,8 @@ helm:
   # install.
   valuesFiles:
     - amprion-fluentbit-values.yaml
-
+# Disable go template pre-processing on the fleet values
+disablePreProcess: false
 targetCustomizations:
 - name: rancher-t-blue
   # A selector used to match a specific cluster by name.    
