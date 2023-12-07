@@ -5,13 +5,14 @@ helm:
   version: 0.30.4
 
   releaseName: amprion-logging
+  disablePreProcess: true
+
 
   # Any values that should be placed in the `values.yaml` and passed to helm during
   # install.
   valuesFiles:
     - amprion-fluentbit-values.yaml
 # Disable go template pre-processing on the fleet values
-disablePreProcess: true
 targetCustomizations:
 - name: rancher-t-blue
   # A selector used to match a specific cluster by name.    
